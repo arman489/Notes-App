@@ -15,7 +15,7 @@ const PORT = process.env.PORT
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({ 
-    origin: "http://localhost:5174",
+    origin: "https://notes-app-two-rosy.vercel.app",
     credentials: true,
 }))
 app.use(express.urlencoded({extended:true}))
